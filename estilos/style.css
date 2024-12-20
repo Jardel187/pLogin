@@ -1,0 +1,54 @@
+@charset "UTF-8" ;
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #5F2C82;
+}
+
+main {
+    background-color: white;
+    width: 250px;
+    height: 60vh;
+    position: relative;
+    margin: auto;
+    margin-top: 160px;
+    border-radius: 20px;
+    
+}
+
+main > h2 {
+    text-align: center;
+}
+
+div#login {
+    input{
+        background-color: #94CFCD;
+        border-radius: 5px;
+        height: 30px;
+    }
+}
+
+div#pass {
+    input, label {
+        background-color: #94CFCD;
+    }
+}
+
+div#entrar {
+    input {
+        background-color: #94CFCD;
+        color: white;
+        height: 45px ;
+        border-radius: 5px;
+        border-color: #94CFCD;
+        width: 222px;
+        position: relative;
+        margin-left: 12px;
+        margin-top: 200px;
+    }
+}
