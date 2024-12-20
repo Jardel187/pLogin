@@ -33,9 +33,19 @@ div#login {
     }
 }
 
+div#login{
+   
+}
+
 div#pass {
     input, label {
-        background-color: #94CFCD;
+    background-color: #94CFCD;
+    position: relative;
+    top:100px;
+
+    border-radius: 5px;
+    height: 40px;    
+
     }
 }
 
@@ -48,7 +58,7 @@ div#entrar {
         border-color: #94CFCD;
         width: 222px;
         position: relative;
-        margin-left: 12px;
-        margin-top: 200px;
+        left: 12px;
+        top: 200px;
     }
 }
