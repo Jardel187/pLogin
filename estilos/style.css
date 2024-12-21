@@ -10,6 +10,8 @@ body {
     background-color: #5F2C82;
 }
 
+
+
 main {
     background-color: white;
     width: 250px;
@@ -19,10 +21,23 @@ main {
     margin-top: 160px;
     border-radius: 20px;
     
+    
 }
 
 main > h2 {
     text-align: center;
+    position: relative;
+    top: 175px;
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+   text-align: left;
+   position: relative;
+   top: 185px;
+   left: 8px;
+    
 }
 
 div#login {
@@ -30,23 +45,36 @@ div#login {
         background-color: #94CFCD;
         border-radius: 5px;
         height: 30px;
+        position: relative;
+        top: 193px;
+        width: 190px;
+        height: 40px;
     }
-}
 
-div#login{
-   
+    label {
+        position: relative;
+        top:193px;
+    }
 }
 
 div#pass {
-    input, label {
+    input {
     background-color: #94CFCD;
     position: relative;
-    top:100px;
-
+    top:200px;
+    left: 11px;
     border-radius: 5px;
-    height: 40px;    
+    height: 40px;
+    width: 190px;    
 
     }
+
+    label {
+        position: relative;
+        top: 200px;
+        left: 11px;
+    }
+
 }
 
 div#entrar {
@@ -59,6 +87,6 @@ div#entrar {
         width: 222px;
         position: relative;
         left: 12px;
-        top: 200px;
+        top: 205px;
     }
 }
