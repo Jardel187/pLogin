@@ -4,89 +4,50 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-body {
+body, html{
     background-color: #5F2C82;
+    height: 100vh;
+    width: 100vw;
 }
 
 
 
 main {
-    background-color: white;
-    width: 250px;
-    height: 60vh;
-    position: relative;
-    margin: auto;
-    margin-top: 160px;
-    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;   
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   overflow: hidden;
+   background-color: white;
+   border-radius: 20px;
+   width: 250px;
+   height: 500px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+   
+}
     
+section > div#imagem {
+    background: #5F2C82 url(imagens/metal.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: block;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
     
-}
 
-main > h2 {
-    text-align: center;
-    position: relative;
-    top: 175px;
-}
-
-main > p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-   text-align: left;
-   position: relative;
-   top: 185px;
-   left: 8px;
-    
-}
-
-div#login {
-    input{
-        background-color: #94CFCD;
-        border-radius: 5px;
-        height: 30px;
-        position: relative;
-        top: 193px;
-        width: 190px;
-        height: 40px;
-    }
-
-    label {
-        position: relative;
-        top:193px;
-    }
-}
-
-div#pass {
-    input {
-    background-color: #94CFCD;
-    position: relative;
-    top:200px;
-    left: 11px;
-    border-radius: 5px;
-    height: 40px;
-    width: 190px;    
-
-    }
-
-    label {
-        position: relative;
-        top: 200px;
-        left: 11px;
-    }
-
-}
-
-div#entrar {
-    input {
-        background-color: #94CFCD;
-        color: white;
-        height: 45px ;
-        border-radius: 5px;
-        border-color: #94CFCD;
-        width: 222px;
-        position: relative;
-        left: 12px;
-        top: 205px;
-    }
-}
