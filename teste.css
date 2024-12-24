@@ -8,7 +8,7 @@
 }
 
 body, html {
-    background-color: purple;
+    background-color: #5F2C82;
     width: 100vw;
     height: 100vh;
 }
@@ -23,11 +23,100 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+
+   transform: translate(-50%, -50%);
+   overflow: hidden;
+   background-color: white;
+   border-radius: 20px;
+   width: 250px;
+   height: 500px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+   
+   transition: width .3s, height .3s;
+   transition-timing-function: ease;
+}
+
+section > div#imagem {
+    background: #5F2C82 url(estilos/imagens/metal.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    display: block;
+       
+}
+
+div.campo > label {
+    display: none;
+}
+
+section#login > section#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    margin: 10px;
     
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+form > div.campo {
+    background-color:#9646Cc;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    width: 233px;
+    margin-left: 5px;
+    border-radius: 8px;
+}
+
+form > div.material-symbols-outlined {
     background-color: white;
-    width: 250px;
-    height: 500px;
+}
 
 
+form > input[type=submit]{
+    display: block;
+    height: 40px;
+    width: 94%;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    background-color:  #49d8d3;; 
+}
+
+form > input[type=submit]:hover{
+    background-color:  #37a09c;
+}
+
+form > a.botao {
+    display: block;
+    height: 40px;
+    border: 1px solid  #49d8d3;
+    color: #2d6462;
+    text-decoration: none;
+    font-size: 1em;
+    width: 94%;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+form > a.botao:hover {
+    background-color: #6cd3cf;
+}
+
+form > a > span.material-symbols-outlined {
+    font-size: 0.8em;
 }

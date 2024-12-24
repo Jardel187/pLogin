@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     
     body {
@@ -8,18 +9,18 @@
     
     section#login {
         width: 80vw;
-        height: 330px;
+        height: 300px;
     }
 
   section#login > div#imagem {
-    float: right;
-    width: 40%;
+    float: left;
+    width: 30%;
     height: 100%;
   }
 
   section#login > div#login {
-    float: left;
-    width: 60%;
+    float: right;
+    width: 70%;
     
   }
   form > input[type=submit]{
@@ -35,14 +36,13 @@ form > div.campo {
 }
 }
 
-@media screen and (min-width: 1050px) and (max-width: 1680px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section#login {
         width: 700px;
-        height: 400px;
     }
 
   section#login > div#imagem {
@@ -63,19 +63,5 @@ form > div.campo {
   div#formulario > p {
     font-size: 1.2em;
   }
-  form > input[type=submit]{
-    width: 320px;
 
 }
-form > a.botao {
-    width: 320px;
-}
-
-form > div.campo {
-    width: 320px;
-}
-}
-
-
-
- 
