@@ -8,7 +8,7 @@
     
     section#login {
         width: 80vw;
-        height: 330px;
+        height: 280px;
     }
 
   section#login > div#imagem {
@@ -33,6 +33,10 @@ form > a.botao {
 form > div.campo {
     width: 320px;
 }
+div.campo > input {
+  width: 271px;
+  
+}
 }
 
 @media screen and (min-width: 1050px) and (max-width: 1680px) {
@@ -42,7 +46,7 @@ form > div.campo {
     
     section#login {
         width: 700px;
-        height: 400px;
+        height: 340px;
     }
 
   section#login > div#imagem {
@@ -73,6 +77,11 @@ form > a.botao {
 
 form > div.campo {
     width: 320px;
+}
+
+div.campo > input {
+  width: 271px;
+  
 }
 }
 
